@@ -55,9 +55,10 @@ ds/
 │   ├── index.html          # docs-site shell (React 18 UMD + Babel)
 │   ├── app.jsx             # layout: sidebar · content · aside
 │   ├── data.jsx            # nav tree + page registry — edit this first
-│   ├── pages1.jsx · pages2.jsx · collections.jsx
+│   └── pages1.jsx · pages2.jsx · collections.jsx
 └── templates/patterson-docs/
     ├── PattersonDocs.dc.html   # standalone docs page — opens directly in a browser
+    ├── ds-base.js          # token loader (base path ../..)
     └── support.js
 ```
 
