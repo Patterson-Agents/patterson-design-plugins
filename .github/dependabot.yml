@@ -7,7 +7,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/plugins/patterson-tutorialkit/ds/templates/tutorialkit"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 5
     groups:
       tutorialkit-template:
