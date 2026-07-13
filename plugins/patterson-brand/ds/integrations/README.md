@@ -145,3 +145,7 @@ Patterson buttons are **pills** — set the shadcn Button radius accordingly, e.
 - **A UnoCSS app** → `uno.config.js`.
 
 All five render the same brand. Pick the one your stack already uses.
+
+## VHS terminal demo
+
+<img src="../../../../demos/vhs/gif/patterson-brand.gif" width="820" alt="patterson-brand terminal demo">

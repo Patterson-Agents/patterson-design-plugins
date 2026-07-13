@@ -29,3 +29,7 @@ toast update.
   Patterson product photography to finish.
 - Catalog content (products, categories, testimonials) is representative of the captured
   pages; exact live inventory will differ.
+
+## VHS terminal demo
+
+<img src="../../../../../demos/vhs/gif/patterson-storefront.gif" width="820" alt="patterson-storefront terminal demo">

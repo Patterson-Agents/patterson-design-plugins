@@ -79,9 +79,7 @@ Scripted with [VHS](https://github.com/charmbracelet/vhs) — render it locally:
 vhs ../../demos/vhs/patterson-file-manager.tape    # → demos/vhs/gif/patterson-file-manager.gif
 ```
 
-<!-- Uncomment after rendering the GIF:
 <img src="../../demos/vhs/gif/patterson-file-manager.gif" width="820" alt="patterson-file-manager terminal demo">
--->
 
 ## Live demo
 

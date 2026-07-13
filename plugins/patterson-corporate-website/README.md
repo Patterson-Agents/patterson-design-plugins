@@ -84,9 +84,7 @@ Scripted with [VHS](https://github.com/charmbracelet/vhs) — render it locally:
 vhs ../../demos/vhs/patterson-corporate-website.tape    # → demos/vhs/gif/patterson-corporate-website.gif
 ```
 
-<!-- Uncomment after rendering the GIF:
 <img src="../../demos/vhs/gif/patterson-corporate-website.gif" width="820" alt="patterson-corporate-website terminal demo">
--->
 
 ## Live demo
 

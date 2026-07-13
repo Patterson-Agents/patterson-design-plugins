@@ -28,3 +28,7 @@ Built from the live site's **content, navigation, messaging and statistics** (th
 exact CSS/layout source was not available). Imagery is represented with navy/sky placeholder
 panels — drop in real Patterson photography to finish. The wordmark is the system's
 placeholder; replace with the official logo.
+
+## VHS terminal demo
+
+<img src="../../../../../demos/vhs/gif/patterson-corporate-website.gif" width="820" alt="patterson-corporate-website terminal demo">

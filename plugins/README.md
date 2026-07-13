@@ -33,3 +33,7 @@ Every `ds/` mirrors the design-system source tree (`styles.css`, `tokens/`, `ass
 3. Write the skill (workflow + brand quick reference), a command with `description`/`argument-hint` frontmatter, and an agent with `name`/`description` frontmatter.
 4. Register it in [`../.claude-plugin/marketplace.json`](../.claude-plugin/marketplace.json).
 5. `claude plugin validate .` and add a screenshot to `../docs/screenshots/` + a tape to `../demos/vhs/`.
+
+## VHS terminal demo
+
+<img src="../demos/vhs/gif/marketplace-tour.gif" width="820" alt="marketplace terminal demo">

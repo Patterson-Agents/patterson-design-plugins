@@ -96,3 +96,7 @@ src/content/tutorial/
 Set `focus:` to a file that exists in `_files/`, keep `previews: false` for
 author→validate lessons, and derive any `ins={…}`/`del={…}` code annotations from a
 real `diff` between `_files` and `_solution`.
+
+## VHS terminal demo
+
+<img src="../../../../../demos/vhs/gif/patterson-tutorialkit.gif" width="820" alt="patterson-tutorialkit terminal demo">

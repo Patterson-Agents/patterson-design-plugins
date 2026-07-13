@@ -11,3 +11,7 @@ Node 22 (bookworm) dev container with the full agent toolchain.
 First-run auth: `claude` (browser sign-in) · `copilot` → `/login` · `opencode` → `/connect` · `gh auth status` (pre-authed in Codespaces).
 
 Prebuild: enable in repo Settings → Codespaces; the [`devcontainer-prebuild.yml`](../.github/workflows/devcontainer-prebuild.yml) workflow additionally pushes the image to GHCR. A publishable copy of this config lives in [`../devcontainer-template/`](../devcontainer-template/).
+
+## VHS terminal demo
+
+<img src="../demos/vhs/gif/marketplace-tour.gif" width="820" alt="marketplace terminal demo">

@@ -78,9 +78,7 @@ Scripted with [VHS](https://github.com/charmbracelet/vhs) — render it locally:
 vhs ../../demos/vhs/patterson-executive-deck.tape    # → demos/vhs/gif/patterson-executive-deck.gif
 ```
 
-<!-- Uncomment after rendering the GIF:
 <img src="../../demos/vhs/gif/patterson-executive-deck.gif" width="820" alt="patterson-executive-deck terminal demo">
--->
 
 ## Live demo
 

@@ -83,9 +83,7 @@ Scripted with [VHS](https://github.com/charmbracelet/vhs) — render it locally:
 vhs ../../demos/vhs/patterson-deck.tape    # → demos/vhs/gif/patterson-deck.gif
 ```
 
-<!-- Uncomment after rendering the GIF:
 <img src="../../demos/vhs/gif/patterson-deck.gif" width="820" alt="patterson-deck terminal demo">
--->
 
 ## Live demo
 

@@ -41,3 +41,7 @@ Layout and chrome recreate TutorialKit's structure from its theming reference; t
 real app is React + CodeMirror + xterm. Syntax highlighting here is a hand-marked
 approximation using the brand accent colors. The wordmark is the design system's
 white lockup on the navy top bar.
+
+## VHS terminal demo
+
+<img src="../../../../../demos/vhs/gif/patterson-tutorialkit.gif" width="820" alt="patterson-tutorialkit terminal demo">

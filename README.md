@@ -132,6 +132,10 @@ for t in demos/vhs/*.tape; do vhs "$t"; done   # render all
 
 Each plugin README embeds its GIF once rendered.
 
+<p align="center">
+  <img src="demos/vhs/gif/marketplace-tour.gif" width="820" alt="marketplace terminal demo">
+</p>
+
 ## Dev environment (Codespaces & dev containers)
 
 Open the repo in GitHub Codespaces or VS Code Dev Containers and the whole agent toolchain is preinstalled: **Claude Code** (`claude`), **OpenCode** (`opencode`), **GitHub Copilot CLI** (`copilot`) and **`gh`**.

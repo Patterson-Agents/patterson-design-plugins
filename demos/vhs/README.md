@@ -8,4 +8,8 @@ vhs patterson-deck.tape        # → gif/patterson-deck.gif
 for t in *.tape; do vhs "$t"; done
 ```
 
-Tapes use a Patterson-navy terminal theme, 1180×640 @ 15pt. GIFs land in `gif/` — commit them if you want them inline in the plugin READMEs (each README has a commented-out `<img>` ready to uncomment).
+Tapes use a Patterson-navy terminal theme, 1180×640 @ 15pt. GIFs land in `gif/` and are embedded across repository README files.
+
+## VHS terminal demo
+
+<img src="gif/marketplace-tour.gif" width="820" alt="marketplace terminal demo">

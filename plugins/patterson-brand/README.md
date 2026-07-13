@@ -113,9 +113,7 @@ Scripted with [VHS](https://github.com/charmbracelet/vhs) — render it locally:
 vhs ../../demos/vhs/patterson-brand.tape    # → demos/vhs/gif/patterson-brand.gif
 ```
 
-<!-- Uncomment after rendering the GIF:
 <img src="../../demos/vhs/gif/patterson-brand.gif" width="820" alt="patterson-brand terminal demo">
--->
 
 ## Live demo
 

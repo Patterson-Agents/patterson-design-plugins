@@ -13,6 +13,10 @@ vhs demos/vhs/patterson-deck.tape     # single plugin → demos/vhs/gif/patterso
 for t in demos/vhs/*.tape; do vhs "$t"; done
 ```
 
-GIFs land in `vhs/gif/` (git-kept, not committed by default — commit them if you want them inline on GitHub). Each plugin README contains a commented-out `<img>` pointing at its GIF; uncomment after rendering.
+GIFs land in `vhs/gif/` and are embedded across the repository README files.
+
+## VHS terminal demo
+
+<img src="vhs/gif/marketplace-tour.gif" width="820" alt="marketplace terminal demo">
 
 The tapes use a Patterson-navy terminal theme and assume the repo is checked out at `~/patterson-design-marketplace` — edit the `cd` line if yours differs.
