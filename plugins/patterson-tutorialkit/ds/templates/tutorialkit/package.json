@@ -1,0 +1,30 @@
+{
+  "name": "patterson-tutorialkit",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Patterson-branded TutorialKit starter — interactive tutorials themed with the Patterson Companies design system.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "@astrojs/react": "^3.6.2",
+    "@tutorialkit/astro": "^1.0.0",
+    "@tutorialkit/react": "^1.0.0",
+    "@tutorialkit/theme": "^1.0.0",
+    "@tutorialkit/types": "^1.0.0",
+    "astro": "^4.15.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.0",
+    "@types/node": "^20.14.6",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.0"
+  }
+}
