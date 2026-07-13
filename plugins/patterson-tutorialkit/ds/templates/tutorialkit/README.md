@@ -37,6 +37,16 @@ semantic set). A live, install-free preview of the themed shell lives at
 > via TutorialKit's variable system; a handful of `--tk-*` tokens the default
 > chrome doesn't consume in 1.6 are reinforced at the bottom of `theme.css`.
 
+> **Security note (Astro version).** `@tutorialkit/astro@1.6.0` — the latest
+> TutorialKit release — pins `astro: ^4.15.0`, so this starter resolves Astro 4.
+> Several Astro advisories are patched only in Astro 5/6, which TutorialKit does
+> not yet support; the affected paths (SSR host-header handling, server islands,
+> middleware auth, dev-server file access) are not exercised by a static,
+> locally-run tutorial, so real-world exposure here is low. If you deploy this as
+> a server-rendered (SSR) site or expose the Astro dev server, review the current
+> Astro advisories first. The pin lifts — and Astro should be upgraded — once
+> TutorialKit ships an Astro-5+ compatible release.
+
 ## The curriculum
 
 | Part | Chapter | Lessons |

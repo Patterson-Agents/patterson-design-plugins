@@ -56,7 +56,7 @@
       "name": "patterson-tutorialkit",
       "source": "./plugins/patterson-tutorialkit",
       "description": "Patterson theme for TutorialKit (Astro-based interactive tutorials): a runnable starter project with the canonical theme.css, brand logos, a 5-part/18-lesson agent-tooling curriculum, and a static preview page.",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "category": "templates"
     },
     {
