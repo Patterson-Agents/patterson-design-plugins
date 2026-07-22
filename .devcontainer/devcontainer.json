@@ -1,7 +1,18 @@
 {
   "name": "Patterson Design — Agent Workbench",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:22-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/base:alpine",
   "features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": "true",
+			"username": "vscode",
+			"userUid": "1000",
+			"userGid": "1000",
+			"upgradePackages": "true"
+		},
+		"ghcr.io/devcontainers/features/git:1": {
+			"version": "latest",
+			"ppa": "false"
+		},
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/anthropics/devcontainer-features/claude-code:1": {}
   },
@@ -28,13 +39,11 @@
         "github.copilot-chat",
         "github.vscode-github-actions",
         "ms-vscode.live-server",
-        "davidanson.vscode-markdownlint",
         "redhat.vscode-yaml",
         "editorconfig.editorconfig"
-      ],
-      "settings": {
-        "terminal.integrated.defaultProfile.linux": "bash"
-      }
+      ]
     }
-  }
+  },
+  
+	"remoteUser": "vscode"
 }
