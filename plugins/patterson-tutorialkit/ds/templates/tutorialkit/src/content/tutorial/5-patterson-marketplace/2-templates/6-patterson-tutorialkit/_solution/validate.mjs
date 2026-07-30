@@ -9,7 +9,7 @@ const checks = [
   { label: 'Adds the marketplace from patterson-agents/design-system', test: (s) => /\/plugin marketplace add patterson-agents\/design-system/.test(s) },
   { label: 'Installs patterson-tutorialkit from the patterson-design marketplace', test: (s) => /\/plugin install patterson-tutorialkit@patterson-design/.test(s) },
   { label: 'Tries the namespaced command /patterson-tutorialkit:brand-tutorialkit', test: (s) => /\/patterson-tutorialkit:brand-tutorialkit/.test(s) },
-  { label: 'Names the theme file (theme.css)', test: (s) => new RegExp('theme\.css', 'i').test(s) },
+  { label: 'Names the theme file (theme.css)', test: (s) => /theme\.css/i.test(s) },
 ];
 let fails = 0;
 for (const c of checks) {
